@@ -5,18 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>First Task</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="firstPage.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<!--<link rel="stylesheet" href="styles/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="styles/css/bootstrap.css" >
+	<script src="styles/js/jquery-3.4.1.min.js"></script>
+	<script src="styles/js/bootstrap.min.js"></script>-->
+	<script src="styles/js/utils_ajax.js"></script>
+    <script src="styles/js/scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/css/firstPage.css">
 	<script type="text/javascript">
-		function myFunction(id) {
+		function changeButton(id) {
 		var x = document.getElementById(id);
 		  if (x.innerHTML === "Follow") {
+		    x.className="btn btn-outline-primary";
 		    x.innerHTML = "Following";
 		  } else {
+		    x.className="btn btn-primary";
 		    x.innerHTML = "Follow";
 		  }
 		}
 	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #6510f2;" aria-label="Main navigation">
@@ -73,7 +84,7 @@
     <div class="col">
       <div class="card mb-4 shadow-sm">
       <div class="card-header">
-        <img src="cooking.jpg" alt="Cooking" class="img-thumbnail card-img" width="300" height="400">
+        <img src="styles/images/cooking.jpg" alt="Cooking" class="img-thumbnail card-img" width="300" height="400">
       </div>
       <div class="card-body">
         <h3 class="card-title">Cooking</h3>
@@ -89,12 +100,12 @@
 		        <img src="https://i.pravatar.cc/150?img=14" alt="Avatar">
 		    </span>
     	</div>
-    	<a href="#" class="btn btn-primary" onclick="myFunction(this.id)" id='item-1'>Following</a>
+    	<a href="#" class="btn btn-primary" onclick="changeButton(this.id)" id='item-1'>Follow</a>
       </div>
   </div>
       <div class="card mb-4 shadow-sm">
       <div class="card-header">
-        <img src="climate.jpg" alt="Climate" class="img-thumbnail card-img" width="300" height="400">
+        <img src="styles/images/climate.jpg" alt="Climate" class="img-thumbnail card-img" width="300" height="400">
       </div>
       <div class="card-body">
         <h3 class="card-title">Climate</h3>
@@ -110,7 +121,7 @@
 		        <img src="https://i.pravatar.cc/150?img=19" alt="Avatar">
 		    </span>
     	</div>
-    	<a href="#" class="btn btn-primary" onclick="myFunction(this.id)" id='item-2'>Follow</a>
+    	<a href="#" class="btn btn-primary" onclick="changeButton(this.id)" id='item-2'>Follow</a>
       </div>
     </div>
     
@@ -122,11 +133,11 @@
     
     <div class="card mb-4 shadow-sm">
       <div class="card-header">
-        <img src="nature.jpg" alt="Nature" class="img-thumbnail card-img" width="300" height="400">
+        <img src="styles/images/nature.jpg" alt="Nature" class="img-thumbnail card-img" width="300" height="400">
       </div>
       <div class="card-body">
         <h3 class="card-title">Nature</h3>
-    	<p class="card-text">400K Million Followers</p>
+    	<p class="card-text">400K Followers</p>
     	<div class="avatars">
 	        <span class="avatar">
 		        <img src="https://i.pravatar.cc/150?img=4" alt="Avatar">
@@ -138,12 +149,12 @@
 		        <img src="https://i.pravatar.cc/150?img=15" alt="Avatar">
 		    </span>
     	</div>
-    	<a href="#" class="btn btn-primary" onclick="myFunction(this.id)" id='item-3'>Following</a>
+    	<a href="#" class="btn btn-primary" onclick="changeButton(this.id)" id='item-3'>Follow</a>
       </div>
     </div>
     <div class="card mb-4 shadow-sm">
       <div class="card-header">
-        <img src="science.jpg" alt="Science" class="img-thumbnail card-img" width="300" height="400">
+        <img src="styles/images/science.jpg" alt="Science" class="img-thumbnail card-img" width="300" height="400">
       </div>
       <div class="card-body">
         <h3 class="card-title">Science</h3>
@@ -159,7 +170,7 @@
 		        <img src="https://i.pravatar.cc/150?img=6" alt="Avatar">
 		    </span>
     	</div>
-    	<a href="#" class="btn btn-primary" onclick="myFunction(this.id)" id='item-4'>Follow</a>
+    	<a href="#" class="btn btn-primary" onclick="changeButton(this.id)" id='item-4'>Follow</a>
       </div>
     </div>
     </div>
@@ -168,11 +179,11 @@
     <div class="col">
     <div class="card mb-4 shadow-sm">
       <div class="card-header">
-        <img src="travel.jpg" alt="Travel" class="img-thumbnail card-img" width="300" height="400">
+        <img src="styles/images/travel.jpg" alt="Travel" class="img-thumbnail card-img" width="300" height="400">
       </div>
       <div class="card-body">
         <h3 class="card-title">Travel</h3>
-    	<p class="card-text">105K Million Followers</p>
+    	<p class="card-text">105K Followers</p>
     	<div class="avatars">
 	        <span class="avatar">
 		        <img src="https://i.pravatar.cc/150?img=1" alt="Avatar">
@@ -184,12 +195,12 @@
 		        <img src="https://i.pravatar.cc/150?img=9" alt="Avatar">
 		    </span>
     	</div>
-    	<a href="#" class="btn btn-primary" onclick="myFunction(this.id)" id='item-5'>Follow</a>
+    	<a href="#" class="btn btn-primary" onclick="changeButton(this.id)" id='item-5'>Follow</a>
       </div>
     </div>
     <div class="card mb-4 shadow-sm">
       <div class="card-header">
-        <img src="music.png" alt="Music" class="img-thumbnail card-img" width="300" height="400">
+        <img src="styles/images/music.png" alt="Music" class="img-thumbnail card-img" width="300" height="400">
       </div>
       <div class="card-body">
         <h3 class="card-title">Music</h3>
@@ -205,7 +216,7 @@
 		        <img src="https://i.pravatar.cc/150?img=11" alt="Avatar">
 		    </span>
     	</div>
-    	<a href="#" class="btn btn-primary" onclick="myFunction(this.id)" id='item-6'>Follow</a>
+    	<a href="#" class="btn btn-primary" onclick="changeButton(this.id)" id='item-6'>Follow</a>
       </div>
     </div>
     </div>
