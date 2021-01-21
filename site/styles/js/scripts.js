@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded",
     // Unobtrusive event binding
     /*document.querySelector("body")
       .addEventListener("load", function () {*/
-        document.getElementById("but")
-      .addEventListener("click", function () {
+        //document.getElementById("but").addEventListener("click", function () {
         //document.addEventListener('load',function () {
+          window.onload = function(){
         // Call server to get the name
         console.log("hi");
         $ajaxUtils.sendGetRequest("styles/data/log_info.json", 
@@ -84,6 +84,6 @@ document.addEventListener("DOMContentLoaded",
               ele.appendChild(parent_div2);
               ele.appendChild(parent_div3);
             });
-      });
+      };
   }
 );
