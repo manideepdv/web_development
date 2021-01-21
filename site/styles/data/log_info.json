@@ -1,12 +1,76 @@
 {
-  "card-title": "Cooking",
-  "card-text": "6.5M Followers",
-  "image": "styles/images/cooking.jpg",
-  "width": 300,
-  "height": 400,
-  "avatars": [
-        "https://i.pravatar.cc/150?img=6",
-		"https://i.pravatar.cc/150?img=13",
-		"https://i.pravatar.cc/150?img=19"
-      ]
+  "log_info":[
+    {
+      "card-title": "Cooking",
+      "card-text": "6.5M Followers",
+      "image": "styles/images/cooking.jpg",
+      "width": 300,
+      "height": 400,
+      "avatars": [
+            "https://i.pravatar.cc/150?img=3",
+    		"https://i.pravatar.cc/150?img=10",
+    		"https://i.pravatar.cc/150?img=14"
+          ]
+  },
+  {
+    "card-title": "Climate",
+    "card-text": "2M Followers",
+    "image": "styles/images/climate.jpg",
+    "width": 300,
+    "height": 400,
+    "avatars": [
+          "https://i.pravatar.cc/150?img=6",
+      "https://i.pravatar.cc/150?img=13",
+      "https://i.pravatar.cc/150?img=19"
+        ]
+  },
+  {
+    "card-title": "Nature",
+    "card-text": "400K Followers",
+    "image": "styles/images/nature.jpg",
+    "width": 300,
+    "height": 400,
+    "avatars": [
+          "https://i.pravatar.cc/150?img=4",
+      "https://i.pravatar.cc/150?img=17",
+      "https://i.pravatar.cc/150?img=15"
+        ]
+  },
+  {
+    "card-title": "Science",
+    "card-text": "203K Followers",
+    "image": "styles/images/science.jpg",
+    "width": 300,
+    "height": 400,
+    "avatars": [
+          "https://i.pravatar.cc/150?img=12",
+      "https://i.pravatar.cc/150?img=8",
+      "https://i.pravatar.cc/150?img=6"
+        ]
+  },
+  {
+    "card-title": "Travel",
+    "card-text": "105K Followers",
+    "image": "styles/images/travel.jpg",
+    "width": 300,
+    "height": 400,
+    "avatars": [
+          "https://i.pravatar.cc/150?img=1",
+      "https://i.pravatar.cc/150?img=5",
+      "https://i.pravatar.cc/150?img=9"
+        ]
+  },
+  {
+    "card-title": "Music",
+    "card-text": "80K Followers",
+    "image": "styles/images/music.png",
+    "width": 300,
+    "height": 400,
+    "avatars": [
+          "https://i.pravatar.cc/150?img=13",
+      "https://i.pravatar.cc/150?img=7",
+      "https://i.pravatar.cc/150?img=11"
+        ]
+  }
+]
 }

@@ -12,8 +12,7 @@
 	<link rel="stylesheet" href="styles/css/bootstrap.css" >
 	<script src="styles/js/jquery-3.4.1.min.js"></script>
 	<script src="styles/js/bootstrap.min.js"></script>-->
-	<script src="styles/js/utils_ajax.js"></script>
-    <script src="styles/js/scripts.js"></script>
+	
 	<link rel="stylesheet" type="text/css" href="styles/css/firstPage.css">
 	<script type="text/javascript">
 		function changeButton(id) {
@@ -80,8 +79,8 @@
   </nav>
 </div>
 <div class="container-fluid block-1">
-<div class="row row-cols-1 row-cols-md-3 mb-3 block-2">
-    <div class="col">
+<div class="row row-cols-1 row-cols-md-3 mb-3 block-2" id="dynamic_block">
+    <!--<div class="col">
       <div class="card mb-4 shadow-sm">
       <div class="card-header">
         <img src="styles/images/cooking.jpg" alt="Cooking" class="img-thumbnail card-img" width="300" height="400">
@@ -219,12 +218,17 @@
     	<a href="#" class="btn btn-primary" onclick="changeButton(this.id)" id='item-6'>Follow</a>
       </div>
     </div>
-    </div>
+    </div>-->
       
    
     </div>
   </div>
 
+<p>
+    <button id="but">
+      Say Something!
+    </button>
+  </p>
 <footer>
 	<div class="container-fluid">
 		<ul class="ct-footer-list text-center-sm">
@@ -261,5 +265,7 @@
 	    </ul>
 	</div>
 </footer>
+<script src="styles/js/utils_ajax.js"></script>
+<script src="styles/js/scripts.js"></script>
 </body>
 </html>
