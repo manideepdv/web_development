@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded",
               h_3.setAttribute("class","card-title");
               h_3.textContent = log_data[j]["card-title"];
               const p_1 = document.createElement('p');
-              h_3.setAttribute("class","card-text");
+              p_1.setAttribute("class","card-text");
               p_1.textContent = log_data[j]["card-text"];
               const div_5 = document.createElement('div');
               div_5.setAttribute("class","avatars");
