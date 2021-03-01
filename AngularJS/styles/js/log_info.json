@@ -1,0 +1,12 @@
+{
+  "card-title": "Cooking",
+  "card-text": "6.5M Followers",
+  "image": "styles/images/cooking.jpg",
+  "width": 300,
+  "height": 400,
+  "avatars": [
+        "https://i.pravatar.cc/150?img=6",
+		"https://i.pravatar.cc/150?img=13",
+		"https://i.pravatar.cc/150?img=19"
+      ]
+}
